@@ -1,0 +1,32 @@
+name: Build Universal APK
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build-universal:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+- name: Set up JDK 17 (required by AGP 8.x)
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+          cache: gradle
+
+      - name: Build universal APK
+        working-directory: V2rayNG
+        run: |
+          chmod +x gradlew
+          ./gradlew --no-daemon :app:assembleProdRelease
+
+      - name: Upload universal outputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: universal-apk
+          path: |
+            V2rayNG/app/build/outputs/apk/**
+

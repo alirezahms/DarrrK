@@ -226,10 +226,10 @@
                     android:layout_marginRight="16dp"
                     android:layout_marginBottom="8dp"
                     android:clickable="true"
-                    android:contentDescription="M connect button"
+                    android:contentDescription="🛡️ connect button"
                     android:focusable="true"
                     android:nextFocusLeft="@+id/layout_test"
-                    android:src="@drawable/ic_stat_name_m2"
+                    android:src="@drawable/ic_stat_shield"
                     app:layout_anchorGravity="bottom|right|end" />
 
 
