@@ -1,0 +1,15 @@
+./V2rayNG/app/src/main/res/values-fa/strings.xml:298:    <string name="btn_get_rotating_config">دریافت کانفیگ</string>
+./V2rayNG/app/src/main/res/values-fa/strings.xml:299:    <string name="btn_test_rotating_config">تست</string>
+./V2rayNG/app/src/main/res/values-fa/strings.xml:300:    <string name="btn_sort_rotating_config">مرتب</string>
+./V2rayNG/app/src/main/res/layout-television/activity_main.xml:122:                            android:text="@string/btn_get_rotating_config"
+./V2rayNG/app/src/main/res/layout-television/activity_main.xml:134:                            android:text="@string/btn_test_rotating_config"
+./V2rayNG/app/src/main/res/layout-television/activity_main.xml:146:                            android:text="@string/btn_sort_rotating_config"
+./V2rayNG/app/src/main/res/values/strings.xml:288:    <string name="btn_get_rotating_config">get config</string>
+./V2rayNG/app/src/main/res/values/strings.xml:289:    <string name="btn_test_rotating_config">test</string>
+./V2rayNG/app/src/main/res/values/strings.xml:290:    <string name="btn_sort_rotating_config">sort</string>
+./V2rayNG/app/src/main/res/layout/activity_main.xml:116:                            android:text="@string/btn_get_rotating_config" />
+./V2rayNG/app/src/main/res/layout/activity_main.xml:130:                            android:text="@string/btn_test_rotating_config" />
+./V2rayNG/app/src/main/res/layout/activity_main.xml:143:                            android:text="@string/btn_sort_rotating_config" />
+./V2rayNG/app/src/main/res/color/strings.xml:240:    <string name="btn_get_rotating_config">get config</string>
+./V2rayNG/app/src/main/res/color/strings.xml:241:    <string name="btn_test_rotating_config">test</string>
+./V2rayNG/app/src/main/res/color/strings.xml:242:    <string name="btn_sort_rotating_config">sort</string>

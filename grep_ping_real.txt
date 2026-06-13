@@ -1,0 +1,18 @@
+./V2rayNG/app/src/main/res/values-ru/strings.xml:190:    <string name="title_ping_all_server">Проверка доступности профилей</string>
+./V2rayNG/app/src/main/res/values-ru/strings.xml:191:    <string name="title_real_ping_all_server">Время отклика профилей</string>
+./V2rayNG/app/src/main/res/values-fa/strings.xml:188:    <string name="title_ping_all_server">tcping کانفیگ های فعلی</string>
+./V2rayNG/app/src/main/res/values-fa/strings.xml:189:    <string name="title_real_ping_all_server">تاخیر واقعی کانفیگهای فعلی</string>
+./V2rayNG/app/src/main/res/values/strings.xml:213:    <string name="title_ping_all_server">Tcping current configs</string>
+./V2rayNG/app/src/main/res/values/strings.xml:214:    <string name="title_real_ping_all_server">Real delay current configs</string>
+./V2rayNG/app/src/main/res/menu/menu_main.xml:93:        android:title="@string/title_ping_all_server"
+./V2rayNG/app/src/main/res/menu/menu_main.xml:96:        android:id="@+id/real_ping_all"
+./V2rayNG/app/src/main/res/menu/menu_main.xml:97:        android:title="@string/title_real_ping_all_server"
+./V2rayNG/app/src/main/res/values-zh-rCN/strings.xml:181:    <string name="title_ping_all_server">测试全部配置Tcping</string>
+./V2rayNG/app/src/main/res/values-zh-rCN/strings.xml:182:    <string name="title_real_ping_all_server">测试全部配置真连接</string>
+./V2rayNG/app/src/main/res/values-vi/strings.xml:179:    <string name="title_ping_all_server">Ping tất cả máy chủ</string>
+./V2rayNG/app/src/main/res/values-vi/strings.xml:180:    <string name="title_real_ping_all_server">Kiểm tra máy chủ</string>
+./V2rayNG/app/src/main/res/values-zh-rTW/strings.xml:179:    <string name="title_ping_all_server">偵測所有組態 Tcping</string>
+./V2rayNG/app/src/main/res/values-zh-rTW/strings.xml:180:    <string name="title_real_ping_all_server">偵測所有組態真延遲</string>
+./V2rayNG/app/src/main/res/color/strings.xml:187:    <string name="title_ping_all_server">Tcping all configuration</string>
+./V2rayNG/app/src/main/res/color/strings.xml:188:    <string name="title_real_ping_all_server">Real delay all configuration</string>
+./V2rayNG/app/src/main/kotlin/com/v2ray/ang/ui/MainActivity.kt:291:        R.id.real_ping_all -> {
