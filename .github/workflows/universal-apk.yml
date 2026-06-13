@@ -19,6 +19,9 @@ jobs:
 
       - name: Build universal APK
         working-directory: V2rayNG
+        env:
+          JAVA_TOOL_OPTIONS: ""
+          GRADLE_OPTS: ""
         run: |
           chmod +x gradlew
           ./gradlew --no-daemon :app:assembleProdRelease
