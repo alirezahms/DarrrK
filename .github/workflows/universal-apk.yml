@@ -10,7 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-- name: Set up JDK 17 (required by AGP 8.x)
+      - name: Set up JDK 17 (required by AGP 8.x)
         uses: actions/setup-java@v4
         with:
           distribution: temurin
